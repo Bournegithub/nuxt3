@@ -6,6 +6,4 @@ COPY . /nodeServer/nuxt3
 
 WORKDIR /nodeServer/nuxt3
 
-#ENTRYPOINT ["node","server/index.mjs"]
-
-CMD ["node","server/index.mjs"]
+ENTRYPOINT ["node","server/index.mjs"]
