@@ -1,4 +1,4 @@
-FROM node:20.9.0
+FROM node:20.9.0-alpine
 
 RUN mkdir -p /nodeServer/nuxt3
 
@@ -6,4 +6,6 @@ COPY . /nodeServer/nuxt3
 
 WORKDIR /nodeServer/nuxt3
 
-ENTRYPOINT ["node","server/index.mjs"]
+#ENTRYPOINT ["node","server/index.mjs"]
+
+CMD ["node","server/index.mjs"]
