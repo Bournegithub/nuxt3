@@ -80,3 +80,9 @@ bun run preview
 ```
 
 Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+
+## 部署
+
+项目SSR部署采用docker部署,yarn build之后jenkins会将Dockerfile、build.sh文件复制到.output文件夹.
+
+线上生成镜像并运行容器
