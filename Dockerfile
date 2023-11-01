@@ -1,4 +1,4 @@
-FROM node:18.17.0-alpine
+FROM node:20.9.0-alpine
 
 RUN mkdir -p /nodeServer/nuxt3
 
