@@ -6,4 +6,12 @@ COPY . /nodeServer/nuxt3
 
 WORKDIR /nodeServer/nuxt3
 
-ENTRYPOINT ["node","server/index.mjs"]
+ENV HOST 0.0.0.0
+
+ENV PORT 3000
+
+RUN yarn install
+
+EXPOSE 3000
+
+ENTRYPOINT ["node",".output/server/index.mjs"]

@@ -56,7 +56,7 @@ export default defineNuxtConfig({
     dirs: ['~/components']
   },
   app: {
-    // baseURL: envData.NUXT_APP_BASE_URL,
+    baseURL: envData.VITE_APP_BASE_URL,
     // baseURL: '/nuxt3',
     head: {
       charset: "UTF-8",
