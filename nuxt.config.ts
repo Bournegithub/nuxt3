@@ -32,7 +32,7 @@ export default defineNuxtConfig({
   },
   routeRules: {
     // 登陆页构建时预渲
-    // '/login': { prerender: true },
+    '/login': { prerender: true },
     // 针对路径进行接口转发
     '/api/**': {
       proxy: `https://mock.apifox.cn/m1/3136188-0-default/**` 
