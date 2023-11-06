@@ -1,0 +1,1 @@
+import{ap as r}from"./entry.61f82d9a.js";const l=(t,o)=>{if(t.install=s=>{for(const n of[t,...Object.values(o??{})])s.component(n.name,n)},o)for(const[s,n]of Object.entries(o))t[s]=n;return t},a=t=>(t.install=r,t);var f=(t,o)=>{const s=t.__vccOpts||t;for(const[n,c]of o)s[n]=c;return s};export{f as _,a,l as w};
