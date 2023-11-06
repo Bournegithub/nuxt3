@@ -65,6 +65,10 @@ export default defineNuxtConfig({
       meta: [
         { name: 'description', content: 'Nuxt3 site.' }
       ],
+      link: [
+				{ rel: "icon", type: "image/x-icon", href: "favicon.ico" }
+			]
+
     }
   },
   vite: {
