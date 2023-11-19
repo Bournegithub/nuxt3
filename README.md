@@ -6,8 +6,8 @@ Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introdu
 
 Node Version 20.9.0
 
-node版本低、或使用npm时SSR打包可能会出现 Cannot find module/ Cannot find package之类的问题
-推荐使用yarn
+node 版本低、或使用 npm 时 SSR 打包可能会出现 Cannot find module/ Cannot find package 之类的问题
+推荐使用 yarn
 
 ## Setup
 
@@ -83,6 +83,8 @@ Check out the [deployment documentation](https://nuxt.com/docs/getting-started/d
 
 ## 部署
 
-项目SSR部署采用docker部署,yarn build之后jenkins会将Dockerfile、build.sh文件复制到.output文件夹.
+项目 SSR 部署采用 docker 部署,yarn build 之后 jenkins 会将 Dockerfile、build.sh 文件复制到.output 文件夹.
 
 线上生成镜像并运行容器
+
+此项目部署在二级目录https://www.*.com/nuxt3,所以nuxt.config.js中设置了baseUrl
